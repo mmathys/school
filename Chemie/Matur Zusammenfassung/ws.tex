@@ -20,6 +20,8 @@
 % Silbentrennung, Sonderzeichen ect.
 \usepackage[german]{babel}
 \usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
 
 % Mathematische Zeichen
 \usepackage{amssymb}
@@ -35,7 +37,7 @@
 \usepackage{framed}
 
 % Grafik
-\usepackage{graphicx}
+%\usepackage{graphicx}
 \usepackage{ifpdf}
 \usepackage{psfrag}
 \usepackage{epstopdf}
@@ -49,6 +51,8 @@
 % farben
 \usepackage{color}
 \usepackage{bbold}
+
+
 
 
 % ------------------------------------------------------------------------------------------------ %
@@ -89,12 +93,12 @@
 \pagestyle{fancy}
 
 \fancyhead{} % löschen
-\fancyhead[L]{\color{headtext}\uppercase{Wahrscheinlichkeit und Statistik}}
+\fancyhead[L]{\color{headtext}\uppercase{Chemie Matur Zusammenfassung}}
 \fancyhead[R]{\color{headtext}\leftmark}
 
 \fancyfoot{} % löschen
 \fancyfoot[L]{\color{foottext}\uppercase{Seite} \thepage}
-\fancyfoot[R]{\color{foottext}\uppercase{Jerome Dohrau}}
+\fancyfoot[R]{\color{foottext}\uppercase{Max Mathys}}
 
 \renewcommand{\headrulewidth}{1pt}
 \renewcommand{\headrule}{{\color{headsepline}\hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}}
@@ -242,27 +246,41 @@
 
 \hfill\newpage
 
-\setcounter{part}{23}
-\part*{Wahrscheinlichkeit}
-\addcontentsline{toc}{part}{Wahrscheinlichkeit}
+\setcounter{part}{1}
+\part*{Atomlehre}
+\addcontentsline{toc}{part}{Atomlehre}
 
-\input{grundbegriffe.tex}
-\input{verteilungen.tex}
-\input{erwartungswert.tex}
-\input{wichtige_verteilungen.tex}
-\input{gemeinsame_verteilung.tex}
-\input{funktionen.tex}
-\input{mehrdim_erwartungswert.tex}
-\input{grenzwertsaetze.tex}
+\input{Atommodelle.tex}
 
-\setcounter{part}{19}
-\part*{Statistik}
-\addcontentsline{toc}{part}{Statistik}
-\setcounter{section}{0}
+\setcounter{part}{2}
+\part*{Bindungslehre}
+\addcontentsline{toc}{part}{Bindungslehre}
 
-\input{deskriptive_statistik.tex}
-\input{schaetzer.tex}
-\input{tests.tex}
+\input{KovalenteBindung.tex}
+\input{Ionenbindung.tex}
+\input{Metallbindung.tex}
+
+\setcounter{part}{18}
+\part*{Reaktionslehre}
+\addcontentsline{toc}{part}{Reaktionslehre}
+
+\input{ChemischesRechnen.tex}
+\input{Kinetik.tex}
+\input{ChemischesGleichgewicht.tex}
+\input{Ozon.tex}
+\input{SaeureBaseReaktionen.tex}
+\input{Redox.tex}
+
+\setcounter{part}{15}
+\part*{Organische Chemie}
+\addcontentsline{toc}{part}{Organische Chemie}
+
+\input{Kohlenwasserstoffe.tex}
+\input{FunktionelleGruppen.tex}
+\input{Erdoel.tex}
+\input{Kunststoffe.tex}
+\input{AminosaeurenUndProteine.tex}
+
 
 \input{anhang.tex}
 
