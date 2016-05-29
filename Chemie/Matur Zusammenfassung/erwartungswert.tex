@@ -1,0 +1,63 @@
+% ------------------------------------------------------------------------------------------------ %
+% Erwartungswert
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Erwartungswert}
+
+\begin{definition}[Diskreter Erwartungswert]
+Ist $X$ diskrete Zufallsvariable mit Gewichtsfunktion $p_X$, so ist der \emph{Erwartungswert} von $X$ definiert als
+$$
+\E[X] := \sum_{x_i \in \mathcal{W}(X)} x_i p_X(x_i),
+$$
+sofern diese Reihe konvergiert.
+\end{definition}
+
+\begin{definition}[Stetiger Erwartungswert]
+Falls $X$ eine stetige Zufallsvariable mit Dichte $f_X$ ist, dann ist der \emph{Erwartungswert} von $X$ definiert als
+$$
+\E[X] := \int_{-\infty}^\infty x f_X(x) \d x,
+$$
+falls das Integral konvergiert.
+\end{definition}
+
+\begin{theorem}[4.1]
+Sei $X$ eine diskrete Zufallsvariable mit Gewichtsfunktion $p_X$ und $Y := g(X)$, dann gilt
+$$
+\E[Y] = \E[g(X)] = \sum_{x_i \in \mathcal{W}(X)} g(x_i) p_{X}(x_i).
+$$
+Falls $X$ eine stetige Zufallsvariable mit Dichte $f_X$ ist, ist analog
+$$
+\E[Y] = \E[g(X)] = \int_{-\infty}^\infty g(x) f_X(x) \d x
+$$
+\end{theorem}
+
+
+% ------------------------------------------------------------------------------------------------ %
+% VARIANZ UND STANDARDABWEICHUNG
+% ------------------------------------------------------------------------------------------------ %
+
+\subsection{Varianz und Standardabweichung}
+
+\begin{definition}[Varianz]
+Sei $X$ eine Zufallsvariable mit $\E[X^2] < \infty$. Die \emph{Varianz} von $X$ ist definiert als
+$$
+\var[X] := \E\left[(X-\E(X))^2\right].
+$$
+\end{definition}
+
+\begin{note} Nach Satz 4.1 lässt sich die Varianz folgendermassen berechnen:
+$$
+\var[X] = \int_{-\infty}^\infty (x-\E[X])^2 f_X(x) \d x
+$$
+\end{note}
+
+\begin{definition}[Standardabweichung]
+Die \emph{Standardabweichung} einer Zufallsvariable $X$ ist
+$$
+\sigma_X := \sqrt{\var[X]}.
+$$
+\end{definition}
+
+
+% ------------------------------------------------------------------------------------------------ %

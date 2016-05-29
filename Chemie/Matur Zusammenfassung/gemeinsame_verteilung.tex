@@ -1,0 +1,114 @@
+% ------------------------------------------------------------------------------------------------ %
+% GEMEINSAME UND BEDINGTE WAHRSCHEINLICHKEITEN
+% ------------------------------------------------------------------------------------------------ %
+
+
+\section{Gemeinsame Verteilungen}
+
+\begin{definition}[Gemeinsame Verteilung]
+Die \emph{gemeinsame Verteilungsfunktion} von $n$ Zufallsvariablen $X_1,\ldots,X_n$ ist die Abbildung $F:\R^n \rightarrow [0,1]$,
+$$
+F(t_1,\ldots,t_n) := \P[X_1 \leq t_1,\ldots,X_n \leq t_n].
+$$
+\end{definition}
+
+\begin{definition}[Gemeinsame Gewichtsfunktion]
+Falls $X_1,\ldots,X_n$ diskrete Zufallsvariablen sind, ist ihre \emph{gemeinsame Gewichtungsfunktion} $p:\R^n\rightarrow [0,1]$ definiert durch
+$$
+p(x_1,\ldots,x_n) := \P[X_1=x_1,\ldots,X_n=x_n].
+$$
+\end{definition}
+
+\begin{definition}[Gemeinsame Dichte]
+Seien $X_1,\ldots,X_n$ stetige Zufallsvariablen mit gemeinsamer Verteilungsfunktion $F(t_1,\ldots,t_n)$. Die Funktion $f : \R^n \rightarrow [0,\infty)$ heisst \emph{gemeinsame Dichte} von $X_1,\ldots,X_n$, falls für alle $t_i \in \R$ gilt
+$$
+F(t_1,\ldots,t_n) = \int_{-\infty}^{t_1} \ldots \int_{-\infty}^{t_n} f(x_1,\ldots,x_n) \d x_n \ldots \d x_1
+$$
+\end{definition}
+
+Falls $X_1,\ldots,X_n$ eine gemeinsame Dichte $f$ haben, so hat diese folgende Eigenschaften:
+\begin{compactenum}[i:]
+\item $f(t_1,\ldots,t_n) \geq 0$ für alle $t_i \in \R$.
+\item $\int_{\R^n} f(t_1,\ldots,t_n) \d\mu = 1$.
+\item $\P[(X_1,\ldots,X_n) \in A] = \int_{(t_1,\ldots,t_n)\in A} f(t_1,\ldots,t_n) \d\mu$.
+\item $f(t_1,\ldots,t_n) = \frac{\partial^n}{\partial t_1 \cdots \partial t_n} F(t_1,\ldots,t_n)$, falls definiert.
+\end{compactenum}
+
+
+% ------------------------------------------------------------------------------------------------ %
+% RANDVERTEILUNG
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Randverteilungen}
+
+\begin{definition}[Randverteilung]
+Seien $X$ und $Y$ Zufallsvariablen mit gemeinsamer Verteilungsfunktion $F_{X,Y}$, dann ist die \emph{Randverteilung} $F_X:\R \rightarrow [0,1]$ von $X$ definiert durch
+$$
+F_X := \P[X \leq x] = \P[X \leq x, Y < \infty] = \lim_{y\rightarrow\infty}F_{X,Y}(x,y).
+$$
+\end{definition}
+
+Für zwei diskrete Zufallsvariablen $X$ und $Y$ mit gemeinsamer Gewichtsfunktion $p_{X,Y}(x,y)$ ist die Gewichtsfunktion der Randverteilung von $X$ gegeben durch
+$$
+p_X =
+\P[X=x] =
+\sum_j \P[X=x,Y=y_j] =
+\sum_j p_{X,Y}(x,y_j).
+$$
+
+Für zwei stetige Zufallsvariablen $X$ und $Y$ mit gemeinsamer Dichte $f_{X,Y}(x,y)$ ist die Randdichte (Dichtefunktion der Randverteilung) von $X$ gegeben durch
+$$
+f_X(x) = \int_{-\infty}^\infty f_{X,Y}(x,y) \d y.
+$$
+
+
+% ------------------------------------------------------------------------------------------------ %
+% BEDINGTE VERTEILUNG
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Bedingte Verteilung}
+
+\begin{definition}[Bedingte Gewichtsfunktion]
+Seien $X$ und $Y$ diskrete Zufallsvariablen mit gemeinsamer Gewichtsfunktion $p_{X,Y}(x,y)$, dann ist die \emph{bedingte Gewichtsfunktion} $p_{X \mid Y}(x \mid y)$ von $X$ gegeben $Y$ definiert durch
+$$
+p_{X \mid Y}(x \mid y) := \P[X = x \mid Y = y] = \frac{p_{X,Y}(x,y)}{p_Y(y)}
+$$
+falls $p_Y(y) > 0$ und $0$ falls $p_Y(y) = 0$.
+\end{definition}
+
+\begin{definition}[Bedingte Dichte]
+Für zwei stetige Zufallsvariablen $X$ und $Y$ mit gemeinsamer Dichte $f_{X,Y}(x,y)$ ist die \emph{bedingte Dichte} $f_{X \mid Y}$ von $X$ gegeben $Y$ definiert durch
+$$
+f_{X \mid Y}(x \mid y) := \frac{f_{X,Y}(x,y)}{f_Y(y)}
+$$
+falls $f_Y(y) > 0$ und $0$ falls $f_Y(y) = 0$.
+\end{definition}
+
+
+% ------------------------------------------------------------------------------------------------ %
+% UNABHÄNGIGKEIT
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Unabhängigkeit}
+
+\begin{definition}[Unabhängigkeit]
+Die Zufallsvariablen $X_1,\ldots,X_n$ heissen \emph{unabhängig}, falls die gemeinsame Verteilungsfunktion das Produkt der Verteilungsfunktionen der Randverteilungen ist:
+$$
+F(x_1,\ldots,x_n) = \prod_{i=1}^n F_{X_i}(x_i)
+$$
+\end{definition}
+
+Im diskreten Fall sind $X_1,\ldots,X_n$ unabhängig, genau dann wenn
+$$
+p(x_1,\ldots,x_n) = \prod_{i=1}^n p_{X_i}(x_i)
+$$
+gilt und analog im stetigen Fall, falls
+$$
+f(x_1,\ldots,x_n) = \prod_{i=1}^n f_{X_i}(x_i).
+$$
+
+
+% ------------------------------------------------------------------------------------------------ %

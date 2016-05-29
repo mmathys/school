@@ -1,0 +1,123 @@
+% ------------------------------------------------------------------------------------------------ %
+% GRUNDLAGEN
+% ------------------------------------------------------------------------------------------------ %
+
+\section{Wahrscheinlichkeiten}
+
+
+% ------------------------------------------------------------------------------------------------ %
+% Ereignissraum
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Ereignisraum, Grundraum}
+
+\begin{definition}[Ereignisraum]
+Der \emph{Ereignisraum} oder \emph{Grundraum} $\Omega$ ist die Menge aller möglichen Ereignisse eines Zufallexperiments. Die Elemente $\omega \in \Omega$ heissen \emph{Elementarereignisse}.
+\end{definition}
+
+\begin{definition}[Ereignis]
+Ein \emph{Ereignis} $A \subseteq \Omega$ ist eine Teilmenge von $\Omega$.
+\end{definition}
+
+Die Klasse aller \emph{beobachtbaren Ereignisse} $\mathcal{F}$ ist eine Teilmenge der Potenzmenge $\mathcal{P}(\Omega)$ von $\Omega$.
+
+
+% ------------------------------------------------------------------------------------------------ %
+% Das Wahrscheinlichkeitsmass
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Wahrscheinlichkeitsmass}
+
+\begin{definition}[Wahrscheinlichkeitsmass]
+Ein \emph{Wahrscheinlichkeitsmass} $\P$ ist eine Abbildung $\P:\mathcal{F} \rightarrow [0,1]$ mit folgenden Eigenschaften:
+\begin{compactenum}[i:]
+\item $\P[\Omega] = 1$.
+\item $\P[A] \geq 0$ für alle $A \in \mathcal{F}$.
+\item $\P[\bigcup_{i=1}^\infty A_i] = \sum_{i=1}^\infty \P[A_i]$ falls $A_i \cap A_j = \emptyset$ für $i \neq j$.
+\end{compactenum}
+\end{definition}
+
+Aus den Axiomen i bis iii folgen direkt die Rechenregeln:
+\begin{compactenum}[i:]
+\item $\P[A^C] = 1 - \P[A]$.
+\item $\P[\emptyset] = 0$.
+\item $A \subseteq B \Rightarrow \P[A] \leq \P[B]$.
+\item $\P[A \cup B] = \P[A]+\P[B]-\P[A \cap B]$ (\emph{Additionsregel}).
+\end{compactenum}
+
+
+% ------------------------------------------------------------------------------------------------ %
+
+\subsection{Endliche Räume}
+
+Für einen endlichen Raum $\Omega = \{\omega_1,\ldots,\omega_n\}$ mit $\P[\omega_i] = p_i$ für alle $1 \leq i \leq n$ gilt
+$$
+\P[A] = \sum_{ i \text{ mit } w_i \in A} p_i
+$$
+
+
+\begin{definition}[Laplace-Raum]
+In einem \emph{Laplace-Raum} sind alle Ereignisse $\omega_1,\ldots,\omega_n$ gleich wahrscheinlich ($p_i = p_j$ für alle $i,j$). Es gilt dann
+$$
+P[A] = \frac{\lvert A \rvert}{\lvert \Omega \rvert}
+$$
+\end{definition}
+
+
+% ------------------------------------------------------------------------------------------------ %
+% BEDINGTE WAHRSCHEINLICHKEIT, TOTALE WAHRSCHEINLICHKEIT UND FORMEL VON BAYES
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Bedingte Wahrscheinlichkeit}
+
+\begin{definition}[Bedingte Wahrscheinlichkeit]
+Seien $A,B$ Ereignisse und $\P[A] > 0$, dann ist die \emph{bedingte Wahrscheinlichkeit} von $B$ gegeben $A$ definiert durch:
+$$
+\P[B \mid A] := \frac{\P[A \cap B]}{\P[A]}
+$$
+\end{definition}
+
+Aus der Definition der bedingten Wahrscheinlichkeit folgt die \emph{Multiplikationsregel}:
+$$
+\P[A \cap B] = \P[B \mid A] \P[A]
+$$
+
+\begin{theorem}[Totale Wahrscheinlichkeit]
+Sei $A_{1 \leq i \leq n}$ eine disjunkte Zerlegung von $\Omega$, dann gilt für ein beliebiges Ereignis $B$:
+$$
+\P[B] = \sum_{i=1}^n \P[B \mid A_i]\P[A_i]
+$$
+\end{theorem}
+
+\begin{theorem}[Formel von Bayes]
+Sei $A_1,\ldots,A_n$ eine disjunkte Zerlegung von $\Omega$ mit $\P[A_i] > 0$ für alle $i$ und $B$ ein Ereignis mit $\P[B] > 0$, dann gilt für jedes $k$:
+$$
+\P[A_k \mid B] = \frac{\P[B \mid A_k] \P[A_k]}{\sum_{i=1}^n \P[B \mid A_i] \P[A_i]}
+$$
+\end{theorem}
+
+
+% ------------------------------------------------------------------------------------------------ %
+% UNABHÄNGIGKEIT
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Unabhängigkeit}
+
+\begin{definition}[Unabhängigkeit]
+Die Ereignisse $A_1,\ldots,A_n$ heissen \emph{unabhängig}, wenn für alle $m \in \N$ und $\{k_1,\ldots,k_m\} \subseteq \{1,\ldots,n\}$ gilt
+
+$$
+\P\left[\bigcap_{i=1}^m A_{k_i}\right] = \prod_{i=1}^m \P[A_{k_i}].
+$$
+\end{definition}
+
+\begin{note}
+Bei unabhängigen Ereignissen $A,B$ hat das Eintreten des einen Ereignisses keinen Einfluss auf die Wahrscheinlichkeit des anderen Ereignisses: $\P[B \mid A] = \frac{\P[A \cap B]}{\P[A]} = \P[B]$
+\end{note}
+
+
+% ------------------------------------------------------------------------------------------------ %

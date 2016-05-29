@@ -1,0 +1,70 @@
+% ------------------------------------------------------------------------------------------------ %
+% FUNKTIONEN VON ZUFALLSVARIABLEN
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsection{Funktionen von Zufallsvariablen}
+
+Ausgehend von den Zufallsvariablen $X_1,\ldots,X_n$ kann man mit einer Funktion $g:\R^n\rightarrow\R$ eine neue Zufallsvariable $Y = g(X_1,\ldots,X_n)$ bilden.
+
+\begin{example}[Summe, diskret]
+Für die Gewichtsfunktion $p_Z$ der Summe $Z = X + Y$ zweier diskreten Zufallsvariablen $X$ und $Y$ mit gemeinsamer Gewichtsfunktion $p$ erhält man
+$$
+p_Z(z) =
+\sum_{x_i \in \mathcal{W}(X)} \P[X=x_i,Y=z-x_i] = 
+\sum_{x_i \in \mathcal{W}(X)} p(x_i,z-x_i)
+$$
+\end{example}
+
+\begin{example}[Summe, stetig]
+Sind $X$ und $Y$ stetige Zufallsvariablen mit gemeinsamer Dichte $f$, so ist die Verteilungsfunktion $F_Z$ der Summe $Z = X+Y$ gegeben durch
+$$
+F_Z =
+\displaystyle\int_{-\infty}^\infty \int_{-\infty}^{z-x} f(x,y) \d y \d x \overset{v=x+y}{=}
+\int_{-\infty}^z \int_{-\infty}^\infty f(x,v-x) \d x \d v
+$$
+und somit auch die Dichte
+$$
+f_Z = \frac{\d}{\d z} F_Z(z) = \int_{-\infty}^\infty f(x,z-x) \d x.
+$$
+\end{example}
+
+
+% ------------------------------------------------------------------------------------------------ %
+% I.I.D.
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsubsection{i.i.d Annahme}
+
+Die Abkürzung \emph{i.i.d.} kommt vom Englischen \emph{independent and identically distributed}. Die $n$-fache Wiederholung eines Zufallsexperiments ist selbst wieder ein Zufallsexperiment. Für die Zufallsvariablen $X_i$ der $i$-ten Wiederholung wird oft aus Gründen der Einfachheit Folgendes angenommen:
+\begin{compactenum}[i:]
+\item $X_1,\ldots,X_n$ sind paarweise unabhängig.
+\item Alle $X_i$ haben dieselbe Verteilung.
+\end{compactenum}
+
+
+% ------------------------------------------------------------------------------------------------ %
+% SPEZIELLE FUNKTIONEN VON ZUFALLSVARIABLEN
+% ------------------------------------------------------------------------------------------------ %
+
+
+\subsubsection{Spezielle Funktionen von Zufallsvariablen}
+
+Wichtige Spezialfälle sind die Summe $S_n = \sum_{i=1}^n X_i$ und das arithmetische Mittel $\overline{X}_n = \frac{S_n}{n}$.
+\begin{compactenum}
+\item Wenn $X_i \sim Be(p)$, dann ist $S_n \sim Bin(n,p)$.
+\item Wenn $X_i \sim \mathcal{P}(\lambda)$, dann ist $S_n \sim \mathcal{P}(n\lambda)$.
+\item Wenn $X_i \sim \mathcal{N}(\mu,\sigma^2)$, dann ist $S_n \sim \mathcal{N}(n\mu,n\sigma^2)$.
+\end{compactenum}
+
+Für den Erwartungswert und die Varianz gilt allgemein
+\begin{center}
+\begin{tabular}{ll}
+$\E[S_n] = n\E[X_i]$ &
+$\var[S_n] = n\var[X_i]$
+\end{tabular}
+\end{center}
+
+
+% ------------------------------------------------------------------------------------------------ %
