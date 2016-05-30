@@ -2,10 +2,10 @@
 % ZUSAMMENFASSUNG
 % WAHRSCHEINLICHKEIT UND STATISTIK
 % ------------------------------------------------------------------------------------------------ %
-% Autor: Jérôme Dohrau
+% Autor: Jï¿½rï¿½me Dohrau
 % Email: dohrauj @ ...
-% Die Zusammenfassung darf gerne für den eigenen Gebrauch angepasst werden. Falls jemand einen
-% Fehler findet, würde ich mich über eine Benachrichtigung per Email freuen.
+% Die Zusammenfassung darf gerne fï¿½r den eigenen Gebrauch angepasst werden. Falls jemand einen
+% Fehler findet, wï¿½rde ich mich ï¿½ber eine Benachrichtigung per Email freuen.
 % ------------------------------------------------------------------------------------------------ %
 
 
@@ -25,12 +25,12 @@
 
 % Mathematische Zeichen
 \usepackage{amssymb}
-% Lehrsätze
+% Lehrsï¿½tze
 \usepackage{amsthm}
 % Mathematische Extras (Matrizen ect.)
 \usepackage{amsxtra}
 
-% Für kompakte Listen
+% Fï¿½r kompakte Listen
 \usepackage{paralist}
 
 % Rahmen
@@ -66,7 +66,7 @@
 \definecolor{footsepline}{rgb}{0.80,0.80,0.80}
 
 
-% Schattierung für Hinweisboxen
+% Schattierung fï¿½r Hinweisboxen
 \definecolor{shadecolor}{rgb}{0.88,0.91,0.95}
 
 \definecolor{highlightcolor}{rgb}{1.00,0.50,0.50}
@@ -77,7 +77,7 @@
 % ------------------------------------------------------------------------------------------------ %
 
 
-% Seitenränder
+% Seitenrï¿½nder
 \usepackage[left=10mm,right=10mm,top=20mm,bottom=20mm]{geometry}
 
 % Zeileneinzug am Anfang eines Absatzes
@@ -92,11 +92,11 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
-\fancyhead{} % löschen
+\fancyhead{} % lï¿½schen
 \fancyhead[L]{\color{headtext}\uppercase{Chemie Matur Zusammenfassung}}
 \fancyhead[R]{\color{headtext}\leftmark}
 
-\fancyfoot{} % löschen
+\fancyfoot{} % lï¿½schen
 \fancyfoot[L]{\color{foottext}\uppercase{Seite} \thepage}
 \fancyfoot[R]{\color{foottext}\uppercase{Max Mathys}}
 
@@ -107,7 +107,7 @@
 
 
 % ------------------------------------------------------------------------------------------------ %
-% LEHRSÄTZE (DEFINITIONEN ETC.)
+% LEHRSï¿½TZE (DEFINITIONEN ETC.)
 % ------------------------------------------------------------------------------------------------ %
 
 
@@ -180,7 +180,7 @@
     \renewcommand{\figurename}{Abb.}
     \renewcommand{\tablename}{Tab.}}
 
-% Abbildungsüberschrift
+% Abbildungsï¿½berschrift
 \renewcommand{\captionfont}{\footnotesize\sffamily}
 
 
@@ -247,12 +247,14 @@
 \hfill\newpage
 
 \setcounter{part}{1}
+\setcounter{section}{0}
 \part*{Atomlehre}
 \addcontentsline{toc}{part}{Atomlehre}
 
 \input{Atommodelle.tex}
 
 \setcounter{part}{2}
+\setcounter{section}{0}
 \part*{Bindungslehre}
 \addcontentsline{toc}{part}{Bindungslehre}
 
@@ -261,6 +263,7 @@
 \input{Metallbindung.tex}
 
 \setcounter{part}{18}
+\setcounter{section}{0}
 \part*{Reaktionslehre}
 \addcontentsline{toc}{part}{Reaktionslehre}
 
@@ -272,6 +275,7 @@
 \input{Redox.tex}
 
 \setcounter{part}{15}
+\setcounter{section}{0}
 \part*{Organische Chemie}
 \addcontentsline{toc}{part}{Organische Chemie}
 
