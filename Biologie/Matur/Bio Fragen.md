@@ -58,20 +58,30 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
 ##Atmung
 
 - Wie ist das Atemsystem aufgebaut
+    - Well, look it up.
 
 ##Ökologie
 
 - Einfluss abiotischer Faktoren
+    - Abwassereinleitung in Fluss: Veränderung der Vorkommen der Verschiedenen Gruppen
+    - Abwasser, Dünger, Laub entspricht Ammonium und Nitraten (NH4, NO2, NO3, N2)
 - oligotroph/eutroph. Warum sind viele Seen tot?
+    - oligotroph: Wenig Phytoplankton wenig Mineralien, mehr Destruenten; Zehrschicht Sauerstoffreich
+    - eutroph: Viel Phytoplanktion viel Mineralien, mehr Phytoplanktion Nährschicht Sauerstoffreich
+    - Wieso sterben viele Seen? Faktoren: Kein ausreichender Wasserstoffaustausch führt zu einer zu tiefem Sauerstoffkonzentration, zusätzlich Verhinderung dadurch der Bildung von organischen Material und verstärktem Abbau.
 
 ##Fotosynthese
 
 - nahh schaus vielleicht nochmal an dawg
 - Was ist die fuckin Formel?
+    - 6 CO2 + 6 H2O --> C6H12O6 + 6 O2
 
 ##Molekulargenetik
 
+- Epigenetik
+    - Welche Faktoren legen die Aktivität eines Gens fest?
 - Wtf ist Epigenetische Regulation?
+    - Zb Bienen. Je nach den Verhältnissen der Umwelt kann sich der Genotyp ändern! Die Umwelt hat Einfluss auf den Genotyp eines Tieres!!!
 - Wtf ist genomische Prägung?
 
 ##Gentechnologie
