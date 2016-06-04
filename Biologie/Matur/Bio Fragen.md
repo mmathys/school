@@ -92,8 +92,9 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
 - Wtf ist Selektion transgener Zellen?
     - TODO
 - Wtf ist Antibiotika-Resistenztest?
-
+    - TODO
 - Für was wird die Gel-Elektrophorese benutzt?
+    - Für lesen der DNA.
 - Ein Beispiel kennen über
     - Mensch (Insulin)
     - Tier (Lachs)
@@ -102,9 +103,15 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
 ##Embryologie
 
 - Was ist der Unterschied zwischen Blastula und Morula?
+    - Blastomere: Die ersten Teilungen (Furchung) der Eizelle resultieren in Blastomere (=Tochterzellen)
+    - Morula: Ein Haufen dicht gedrängter Zellen (Blastomeren).
+    - Blastula: Nach der Furchung bildet sich eine Furchungshöhle (=Blastulahöhle), der Embryo wird nun als Blastula bezeichnet.
 - Ovulation
+    - Eisprung
 - Horizontales Klonen (bis 8-Zellstadium) genauer anschauen.
+    - TODO
 - Arten von Klonen (Horizontales, Vertikales, Therapeutisches, Reproduktives) genauer anschauen.
+    - TODO
 - Direkte Rückprogrammierung, iPS
 - ivF genauer anschauen
 - ZEICHNEN können!!!!!
