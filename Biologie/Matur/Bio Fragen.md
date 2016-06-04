@@ -113,6 +113,8 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
 - Arten von Klonen (Horizontales, Vertikales, Therapeutisches, Reproduktives) genauer anschauen.
     - TODO
 - Direkte Rückprogrammierung, iPS
+    - Direkte Rückprogrammierung: Einschleusen in Hautzelle von Genen, die bei embryonalen Zellen aktiv sind --> Vermehrt sich von selber
+    - iPS: induzierte pluripotente Stammzelle
 - ivF genauer anschauen
 - ZEICHNEN können!!!!!
 - PID sehr wichtig
