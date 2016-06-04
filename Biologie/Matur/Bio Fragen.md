@@ -83,10 +83,14 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
 - Wtf ist Epigenetische Regulation?
     - Zb Bienen. Je nach den Verhältnissen der Umwelt kann sich der Genotyp ändern! Die Umwelt hat Einfluss auf den Genotyp eines Tieres!!!
 - Wtf ist genomische Prägung?
+    - Sogenannte Methylierungen sind in der Lage, bestimmte Regionen von Genen ausser Kraft zu setzen. Diese Methylmuster/Methylierungen werden vererbt
 
 ##Gentechnologie
 
+- Transgene Zelle
+    - Zellen mit DNA von anderen Organismen drinnen.
 - Wtf ist Selektion transgener Zellen?
+    - TODO
 - Wtf ist Antibiotika-Resistenztest?
 - Für was wird die Gel-Elektrophorese benutzt?
 - Ein Beispiel kennen über
