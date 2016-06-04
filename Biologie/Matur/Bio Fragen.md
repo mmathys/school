@@ -117,10 +117,15 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
     - Direkte Rückprogrammierung: TODO
     - iPS: induzierte pluripotente Stammzelle
 - ivF genauer anschauen
+    - Patient Eizellen aus Eierstock, Injektion der Spermien, Injektion der befruchteten Eizelle.
 - ZEICHNEN können!!!!!
 - PID sehr wichtig
+    - Aus Eierstock Eizelle entnehmen, in Reagenzglas mit Spermien befruchten, untersuchen, gesunde einpflanzen
+    - Funktion: Krankheiten vermeiden; Designer-Babies: Das Kind so designen, wie man es sich wünscht, es ist unmoralisch und unmenschlich
 - Funktion/Vorgänge während Furchung / Gastrulation / Neurulation.
-
+    - Furchung: Zellteilung & Blastogenese (Enstehung der Furchungshöhle)
+    - Gastrulation: Entstehung von Ektoderm, Mesoderm und Endoderm, der drei Keimblätter.
+    - Neurulation: Organe entstehens
 ##Neurobiologie
 
 - Wtf ist eigentlich ER, Dictyosom, Golgi-Apparat?
