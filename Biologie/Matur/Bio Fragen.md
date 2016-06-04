@@ -13,25 +13,47 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
     - Plastid: Kommen nur in pflanzlichen Zellen vor. Begrenzt; Entwickeln sich zu Leukoplast (Amyloplast, Proteinoplast, Elaioplast), Chloroplast;
     - Plasmid: Ringförmig duplizierende DNA-Stränge, die (fast) ausschliesslich in Bakterien vorkommen, werden u. a. bei künstlicher Herstellung von Humaninsulin verwendet.
 - gap junctions / tight junctions / Desmosome / Plasmodesmen
-    - gap junctions:
+    - Plasmodesme: Kanäle bei Zellen, wodurch das Cytoplasma ausgetauscht werden kann
+    - gap junctions: Kommunikationsstellen bei tierischen Zellen; Zellmembrane sind verbunden
+    - Desmosome: Haftpunkte zwischen Zellen, die zur Stabilität dienen
+    - tight junctions: Gleiche Funktion wie Desmosome, doch vor allem in Epithelen 
 - Was ist Karyoplasma
+    - Karyoplasma: Inneres des Zellkerns (Cytoplasma ist das innere der Zelle)
 - Plasmalemma = Zellmembran
 - Peroxisom
+    - Vesikel, die Enzyme wie zum beispiel Katalase
+- Vesikel
+    - Kleine, einfache Bläschen in einer Zelle.
 - Mikrotubuli
+    - dünnes Röhrchen aus dem Protein Tubulin im Cytoplasma von Eukaryotenzellen; Proteinfilament (Proteinstrukturen im Cytoplasma)
+- Ribosome, ER Funktion
+    - Ribosome: makromolekulare Komplexe aus Proteinen und RNA
+    - Funktion: Stoffwechsel, Translation, Synthese von Lipiden, Synthese von Proteinen
 
 ##Wasserhaushalt
 
 - Elementarmembran? Dreischichtig?
+    - "Dreischichtig", weil zwei elektronendichte Schichten und eine elektronenundichte Schicht. E~dichte Schicht: Hydrophiler Teil der Lipide; E~undichte Schicht: Hydrophober Teil der Lipide.
 - ER-Transportvesikel
+    - ~= Golgi-Vesikel: Transport von Sekretstoffen, Proteine
 
 ##Zellteilung und Meiose
 
 ##Blut und Blutkreislauf
 
 - Glykolyse
+    - Stoffwechsel von Glucose zu Pyruvat, Verbrennung von Glucose.
+    - C6H12O6 + O2 --> 6 CO2 + H2O
 - Was sind genau die Typen von den Leukozyten (Granulozyten, Makrophagen, Lymphozyten)?
+    - fuck it
 - Funktion des Blutes --> Gastransport
 - Typen von Blutkreisläufen
+    - offener Blutkreislauf bei Insekten
+    - geschlossener Blutkreislauf bei Wirbeltieren
+        - einfacher Blutkreislauf
+        - 2 Typen von doppelter Blutkreislauf.
+	    - Mischung von sauerstoffarmen und sauerstoffreichem Blut (Lurche, Kriechtiere)
+	    - Keine Mischung (Vögel, Säugetiere 😀)
 
 ##Atmung
 
@@ -45,6 +67,7 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
 ##Fotosynthese
 
 - nahh schaus vielleicht nochmal an dawg
+- Was ist die fuckin Formel?
 
 ##Molekulargenetik
 
