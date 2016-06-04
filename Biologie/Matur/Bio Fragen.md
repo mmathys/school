@@ -92,6 +92,7 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
 - Wtf ist Selektion transgener Zellen?
     - TODO
 - Wtf ist Antibiotika-Resistenztest?
+
 - Für was wird die Gel-Elektrophorese benutzt?
 - Ein Beispiel kennen über
     - Mensch (Insulin)
