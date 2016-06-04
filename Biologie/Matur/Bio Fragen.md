@@ -5,7 +5,7 @@ Sebi: 40% Jahr 1-2; 60% Jahr 3-4.
 
 Andere Schwerpunkte: Gentechnologie, Klassische Genetik, Evolutionsbiologie
 
-Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwerpunkte Skizzen gut durchmachen; 4. Nicht Schwerpunkte Karten anschauen.
+Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 3. Nicht Schwerpunkte Skizzen gut durchmachen; 4. Nicht Schwerpunkte Karten anschauen.
 
 ##Cytologie
 
@@ -129,9 +129,10 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
 ##Neurobiologie
 
 - Wtf ist eigentlich ER, Dictyosom, Golgi-Apparat?
-    - ER: Endoplasmatisches Reticulum; Verzweigtes Kanalsystem, enthält Golgi-Apparat und Dictyosom
+    - ER: Endoplasmatisches Reticulum; Verzweigtes Kanalsystem
     - Golgi-Apparat: Besteht aus Hohlräumen (Zisternen)
     - Zisterne bilden Stapel: Dictyosom
+    - Fuck: ER <-/-> Dictyosom+Golgi.
 - Mikrotubuli
     - röhrenförmige Proteinfilamente, für idk was nützlich aber zb für centriole
 - saltatorisch / nicht saltatorisch
