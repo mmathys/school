@@ -108,12 +108,13 @@ Lernen WE: 1. Fragen beantworten; 2. SP durchmachen & gut lernen; 3. Nicht Schwe
     - Blastula: Nach der Furchung bildet sich eine Furchungshöhle (=Blastulahöhle), der Embryo wird nun als Blastula bezeichnet.
 - Ovulation
     - Eisprung
-- Horizontales Klonen (bis 8-Zellstadium) genauer anschauen.
-    - TODO
 - Arten von Klonen (Horizontales, Vertikales, Therapeutisches, Reproduktives) genauer anschauen.
-    - TODO
+    - Horizontales Klonen: Klassisches Klonen. Zellteilung bis **8-Zell-Stadium**, dass Übertragung in andere Uteri. Max. 8 Klone möglich
+    - Vertikales Klonen: **Nukleus-Transfer** in eine normale Eizelle
+    - Therapeutisches Klonen: Klonen **embryonaler Stammzellen** für die Produktion von gesunden Zellen
+    - Reproduktives Klonen: Herstellung eines **genetischen identischen Embryos** und Übertragen in fremde Mutter
 - Direkte Rückprogrammierung, iPS
-    - Direkte Rückprogrammierung: Einschleusen in Hautzelle von Genen, die bei embryonalen Zellen aktiv sind --> Vermehrt sich von selber
+    - Direkte Rückprogrammierung: TODO
     - iPS: induzierte pluripotente Stammzelle
 - ivF genauer anschauen
 - ZEICHNEN können!!!!!
