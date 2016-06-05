@@ -5,7 +5,7 @@ Sebi: 40% Jahr 1-2; 60% Jahr 3-4.
 
 Andere Schwerpunkte: Gentechnologie, Klassische Genetik, Evolutionsbiologie
 
-Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 3. Nicht Schwerpunkte Skizzen gut durchmachen; 4. Nicht Schwerpunkte Karten anschauen.
+Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 🖖  3. Nicht Schwerpunkte Skizzen gut durchmachen;👈  4. Nicht Schwerpunkte Karten anschauen.
 
 ##Cytologie
 
@@ -90,9 +90,17 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 3. Nicht 
 - Transgene Zelle
     - Zellen mit DNA von anderen Organismen drinnen.
 - Wtf ist Selektion transgener Zellen?
-    - TODO
+    - Kontrollieren, ob der Zell-Einbau erfolgreich war.
 - Wtf ist Antibiotika-Resistenztest?
-    - TODO
+    - Plasmid enthält zwei Resistenzgene.
+    - Nun will ein Fremdgen eingebaut werden, das das Resistenzgen 2) unlesbar macht.
+    - Es sind nun 4 Varianten des Wirtes theoretisch verfügbar:
+	- Wirt mit Plasmid mit Fremdgen
+	- Wirt mit ursprünglichem Fremdgen
+	- Wirt mit Fremdgen
+	- Wirt ohne jegliches Gen
+    - Varianten 3 und 4 sterben in Lösung 1) ab; übertragen der Varianten 1 und 2 in Lösung 2.
+    - Variante 2 stirbt in Lösung 2) ab --> Bestätigung des Einbaus des Fremdgens.
 - Für was wird die Gel-Elektrophorese benutzt?
     - Für lesen der DNA.
 - Ein Beispiel kennen über
@@ -114,7 +122,7 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 3. Nicht 
     - Therapeutisches Klonen: Klonen **embryonaler Stammzellen** für die Produktion von gesunden Zellen
     - Reproduktives Klonen: Herstellung eines **genetischen identischen Embryos** und Übertragen in fremde Mutter
 - Direkte Rückprogrammierung, iPS
-    - Direkte Rückprogrammierung: TODO
+    - Direkte Rückprogrammierung: Durch einschleusen von Genen über Viren, die nur bei Kindern aktiv sind
     - iPS: induzierte pluripotente Stammzelle
 - ivF genauer anschauen
     - Patient Eizellen aus Eierstock, Injektion der Spermien, Injektion der befruchteten Eizelle.
@@ -129,7 +137,7 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 3. Nicht 
 ##Neurobiologie
 
 - Wtf ist eigentlich ER, Dictyosom, Golgi-Apparat?
-    - ER: Endoplasmatisches Reticulum; Verzweigtes Kanalsystem
+!   - ER: Endoplasmatisches Reticulum; Verzweigtes Kanalsystem
     - Golgi-Apparat: Besteht aus Hohlräumen (Zisternen)
     - Zisterne bilden Stapel: Dictyosom
     - Fuck: ER <-/-> Dictyosom+Golgi.
