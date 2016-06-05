@@ -138,6 +138,7 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 3. Nicht 
 - saltatorisch / nicht saltatorisch
     - Saltatorische Erregungsleitung: Bei Wirbeltieren, lipidreiche Isolierung von Axonen
     - Kontinuerierliche Erregungsleitung: Bei Wirbellosen Tieren, fortlaufende Depolarisation, nicht gut isoliert.
+
 ##Verhaltensbiologie
 
 - Was genau ist AAM (angeborener auslösender Mechanismus)
