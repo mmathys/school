@@ -74,7 +74,7 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 🖖  3. 
 
 - nahh schaus vielleicht nochmal an dawg
 - Was ist die fuckin Formel?
-    - 6 CO2 + 6 H2O --> C6H12O6 + 6 O2
+    - 6 CO2 + 6 H2O --> C6 H12 O6 + 6 O2
 
 ##Molekulargenetik
 
@@ -146,6 +146,7 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 🖖  3. 
 - saltatorisch / nicht saltatorisch
     - Saltatorische Erregungsleitung: Bei Wirbeltieren, lipidreiche Isolierung von Axonen
     - Kontinuerierliche Erregungsleitung: Bei Wirbellosen Tieren, fortlaufende Depolarisation, nicht gut isoliert.
+
 ##Verhaltensbiologie
 
 - Was genau ist AAM (angeborener auslösender Mechanismus)
