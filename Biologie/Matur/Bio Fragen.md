@@ -37,6 +37,10 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 🖖  3. 
 - ER-Transportvesikel
     - ~= Golgi-Vesikel: Transport von Sekretstoffen, Proteine
 
+##Zellkernteilung und Meiose
+
+**PMATI**
+
 ##Blut und Blutkreislauf
 
 - Glykolyse
