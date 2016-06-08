@@ -134,6 +134,7 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 🖖  3. 
     - Furchung: Zellteilung & Blastogenese (Enstehung der Furchungshöhle)
     - Gastrulation: Entstehung von Ektoderm, Mesoderm und Endoderm, der drei Keimblätter.
     - Neurulation: Organe entstehens
+
 ##Neurobiologie
 
 - Wtf ist eigentlich ER, Dictyosom, Golgi-Apparat?
@@ -146,6 +147,7 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 🖖  3. 
 - saltatorisch / nicht saltatorisch
     - Saltatorische Erregungsleitung: Bei Wirbeltieren, lipidreiche Isolierung von Axonen
     - Kontinuerierliche Erregungsleitung: Bei Wirbellosen Tieren, fortlaufende Depolarisation, nicht gut isoliert.
+
 ##Verhaltensbiologie
 
 - Was genau ist AAM (angeborener auslösender Mechanismus)
