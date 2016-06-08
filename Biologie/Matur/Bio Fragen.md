@@ -131,9 +131,9 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 🖖  3. 
     - Aus Eierstock Eizelle entnehmen, in Reagenzglas mit Spermien befruchten, untersuchen, gesunde einpflanzen
     - Funktion: Krankheiten vermeiden; Designer-Babies: Das Kind so designen, wie man es sich wünscht, es ist unmoralisch und unmenschlich
 - Funktion/Vorgänge während Furchung / Gastrulation / Neurulation.
-    - Furchung: Zellteilung & Blastogenese (Enstehung der Furchungshöhle)
-    - Gastrulation: Entstehung von Ektoderm, Mesoderm und Endoderm, der drei Keimblätter.
-    - Neurulation: Organe entstehens
+    - **Furchung**: Zellteilung & Blastogenese (Enstehung der Furchungshöhle)
+    - **Gastrulation**: Entstehung von Ektoderm, Mesoderm und Endoderm, der drei Keimblätter.
+    - **Neurulation**: Organe entstehens
 
 ##Neurobiologie
 
