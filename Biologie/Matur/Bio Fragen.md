@@ -147,6 +147,10 @@ Lernen WE: 1. Fragen beantworten; 🖖 2. SP durchmachen & gut lernen; 🖖  3. 
 - saltatorisch / nicht saltatorisch
     - Saltatorische Erregungsleitung: Bei Wirbeltieren, lipidreiche Isolierung von Axonen
     - Kontinuerierliche Erregungsleitung: Bei Wirbellosen Tieren, fortlaufende Depolarisation, nicht gut isoliert.
+- Funktionen Gehirnteile Kurz
+    - **Zwischenhirn**: Filter & Verteiler, Triebe
+    - **Kleinhirn**: Bewegungen
+    - **Grosshirn**: Hemisphären; Sprache, Logik, Bewusstsein, Gedächtnis, Sinne
 
 ##Verhaltensbiologie
 
