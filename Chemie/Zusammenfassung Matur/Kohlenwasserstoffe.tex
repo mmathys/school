@@ -4,10 +4,162 @@
 
 \subsubsection{Allgemein}
 
+\begin{definition}[Alkane]
+	Weisen ausschliesslich Einfachbindungen auf.
+\end{definition}
+
+\begin{definition}[Alkene]
+	Weisen mindestens eine Doppelbindung auf.
+\end{definition}
+
+\begin{definition}[Alkine]
+	Weisen mindestens eine Dreifachbindung auf.
+\end{definition}
+
+\begin{definition}[Aromate]
+	Ringförmige Moleküle, welche über eine ungerade Anzahl alternierender Doppelbindungen verfügen
+\end{definition}
+
 \subsubsection{Wichtige Vertreter}
+
+\begin{definition}[Vertreter Alkane]
+	Wasser, Ethanol
+\end{definition}
+
+\begin{definition}[Vertreter Alkene]
+	Werden verwendet für Synthetisierung von Alkohol, Glycerin.
+\end{definition}
+
+\begin{definition}[Vertreter Alkine]
+	Fungizide
+\end{definition}
+
+\begin{definition}[Vertreter Aromate]
+	Aminosäuren wie z. B. Phenylalnin. \\
+	
+	\setatomsep{2.2em}
+	\chemfig[][scale=0.8]{HO-[:30](=[:90]O)-[:-30](-[:-90]NH2)-[:30]-[:-30]*6(-=-=-=)}
+\end{definition}
+
+\subsection{Isomere}
+
+\begin{definition}[Chiralität]
+	TODO
+\end{definition}
+
+TODO isomerie
 
 \subsection{Nomenklatur}
 
-\subsubsection{Allgemein}
+Beispiel: \textit{2-Methylpropanol}
+
+\subsubsection{Vorgehen}
+
+\begin{itemize}
+	\item \textit{Stammname}: Längste C-Kette ergibt den Stammnamen. So nummerieren, dass die längste Kette gewählt wird und die Substituenten eine möglichst kleine Zahl besitzen
+	\item \textit{Funktionelle Gruppen}: Funktionelle Gruppen bestimmen
+	\item \textit{Substituenten}: Substituenten bestimmen
+	\item \textit{Doppel- und Dreifachbindungen}: Doppel- und Dreifachbindungen mit -en und -in bezeichnen.
+\end{itemize}
+
+Format: Substituenten, Stammname, Zwei- / Dreifachbindungen, Funktionelle Gruppe.
+\subsubsection{Stammnamen}
+
+\begin{center}
+	\begin{tabular}{ l  l  l }
+		\textbf{Zahl} & \textbf{Stammname} & \textbf{Zahlwort} \\
+		1 & Meth & \\
+		2 & Eth & Di\\
+		3 & Prop & Tri\\
+		4 & But & Tetra\\
+		5 & Pent & Penta\\
+		6 & Hex & Hexa\\
+		7 & Hept & Hepta\\
+		8 & Oct & Octa\\
+		9 & Non &Nona\\
+		10 & Dec &Deca\\
+	\end{tabular}
+\end{center}
+
+\subsubsection{Substituenten}
+
+Bei Einfachbindung: \{Name\}-yl anhängen.
+
+Bei Doppelbindung:  \{Name\}-ylen anhängen.
+
+Bei Dreifachbindung:  \{Name\}-ylidin anhängen.
+
+Bei Bei Cycloverbindungen:  Cyclo-\{Name\} einfügen.
+
+\begin{center}
+	\begin{tabular}{ l  l  l }
+		\textbf{Substituent} & \textbf{Name} \\
+		$-CH_3$ & Methyl \\
+		$-C_2H_5$ & Ethyl \\
+		$-C_nH_{2n}$ & ?yl \\
+		$-F$ & Fluor \\
+		$-Cl$ & Chlor \\
+		$-Br$ & Brom \\
+		$-I$ & Iod \\
+		$-NH_2$ & Amino \\
+		$-OH$ & Hydroxy \\
+		$-NO_2$ & Nitro \\
+		$-SH$ & Mercapto \\
+	\end{tabular}
+\end{center}
+
+\begin{note}
+	Substituenten, Funktionelle Gruppen und Doppel-/Dreifachbindungen werden immer mit dem Format \\
+	
+	$\{a_0,...,a_n\}-\{Zahlwort\}\{Name\}$, z. B. 3,4-dien \\
+	
+	bezeichnet. 
+	$a$: Der Ort auf der C-Kette, wo gebunden.
+\end{note}
 
 \subsubsection{Funktionelle Gruppen}
+
+\begin{definition}[Halogene Wasserstoffe]
+	Enthalten mindestens ein Halogenatom $F,\ Cl,\ Br,\ I$. Struktur: $R-X$
+	
+	Als Name für die funktionelle Gruppe dient der Name des Halogenatoms. 
+\end{definition}
+
+\begin{definition}[Reihenfolge der Verbindungen]
+	\textit{CCCAKATE}
+	
+	\setatomsep{2.2em}
+	\begin{tabular}{ l  l }
+		\textbf{Name} & \textbf{Formel} \vspace{1em} \\
+		
+		Carbonsäure (\textit{\{Stamm\}-säure}) & 
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]OH}  \vspace{1.8em} \\
+		
+		
+		Carbonsäureester (\textit{\{Stamm\}-säure ester ester ester tester})& 
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]\lewis{57,O}-[:30]R'} \vspace{1.8em} \\
+		
+		Carbonsäureamide & 
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]NH_2} \vspace{1.8em} \\
+	
+		Aldehyde & 
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]H} \vspace{1.5em} \\
+		
+		Ketone &
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]R'} \vspace{1.5em} \\
+		
+		Alkohole &
+		\chemfig[][scale=.8]{R-OH} \vspace{1.5em} \\
+		
+		Thiole &
+		\chemfig[][scale=.8]{R-SH} \vspace{1.5em} \\
+		
+		Amine &
+		\chemfig[][scale=.8]{R-NH_2} \vspace{1.5em} \\
+		
+		Ether &
+		\chemfig[][scale=.8]{R-[:30]\lewis{13,O}-[:-30]R} \vspace{1.5em} \\
+	\end{tabular}
+\end{definition}
+
+TODO aromate, cyclo
