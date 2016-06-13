@@ -2,9 +2,259 @@
 
 \subsection{Definition nach Brönsted}
 
+\textit{Säuren sind Protonenspender, Basen sind Protonenakzeptoren.}
+
 \subsection{Säure-Base Reaktionen (Protolyse)}
 
+\begin{itemize}
+	\item Nichtmetalloxide erzeugen saure Lösungen, Metalloxide erzeugen basische Lösungen.
+	\item Saure und basische Lösungen leiten Strom: Die Lösungen enthalten Ionen.
+	\item Säuren enthalten Wasserstoffatome, Basen enthalten stark elektronegative Atome mit nichtbindenden Elektronenpaaren.
+\end{itemize}
+
+\begin{definition}[Protolyse]
+	Säure-Base-Reaktion: Ein Stoff gibt ein Proton ab, ein Stoff nimmt ein Proton auf.
+\end{definition}
+
+\begin{definition}[Beispiel Säure]
+	{\large
+	$HCl$
+}
+\end{definition}
+
+\begin{definition}[Beispiel Säurereaktion]
+	{\large
+		$HCl + H_2O \rightarrow Cl^\ominus + H_3O^\oplus$
+	}
+\end{definition}
+
+\begin{definition}[Beispiel Base]
+	{\large
+		$NH_3$
+	}
+\end{definition}
+
+\begin{definition}[Beispiel Basereaktion]
+	{\large
+		 $NH_3 + H_2O \rightarrow NH_4^\oplus + OH^\ominus$
+	}
+\end{definition}
+
+\begin{definition}[Hydronium-Ion]
+	{\large
+		$H_3O^\oplus$
+	}
+\end{definition}
+
+\begin{definition}[Hydroxid-Ion]
+	{\large
+		$OH^\ominus$
+	}
+\end{definition}
+
+\begin{definition}[Ampholyte]
+	Stoffe, die die Funktion einer Säure und einer Base einnehmen können. Zum Beispiel {\large $H_2O$}
+\end{definition}
+
+\begin{definition}[Autoprotolyse von Wasser]\leavevmode \\
+
+{\large
+	$H_2O + H_2O \rightarrow H_3O^\oplus + OH^\ominus$	
+}
+
+\end{definition}
+
 \subsection{pH Berechnungen}
+
+\subsubsection{Allgemein}
+
+Das Massenwirkungsgesetz (\ref{mwg}) auf Autoprotolyse anwenden:
+
+{\large
+	\begin{equation}
+	K_c=\frac{c^c(C) \cdot c^d(D)}{c^a(A) \cdot c^b(B)}=\frac{c(H_3O^\oplus) \cdot c(OH^\ominus)}{c^2(H_2O)}
+	\end{equation}
+}
+
+Man kann nun annehmen, dass $c(H_2O)$ konstant ist im Reaktionssystem, wenn nur kleine Mengen an Säuren und Basen reagieren $\rightarrow$ \textit{Ionenprodukt}.
+
+\begin{definition}[Ionenprodukt]\leavevmode \\
+	
+	{\large
+		\begin{equation}
+		\begin{split}
+		K_w & = K_c \cdot c^2(H_2O) \\
+		       & = c(H_3O^\oplus) \cdot c(OH^\ominus) \\
+		       & = K_S \cdot K_W \\
+		       & = 10^{-14} \ M^2
+		\end{split}
+		\end{equation}
+		
+		$K_w=K_c \cdot c^2(H_2O)=c(H_3O^\oplus) \cdot c(OH^\ominus)=10^{-14}\ M^2$
+	}
+	(Bei $25\degree C$)
+	
+\end{definition}
+
+\begin{definition}[Saure Lösung]
+	{\large
+		$c(H3O^\oplus) > 10^{-7} M$
+	}
+\end{definition}
+
+\begin{definition}[Neutrale Lösung]
+	{\large
+		$c(H3O^\oplus) = 10^{-7} M$
+	}
+\end{definition}
+
+\begin{definition}[Basische Lösung]
+	{\large
+		$c(H3O^\oplus) < 10^{-7} M$
+	}
+\end{definition}
+
+\begin{definition}[pH-Wert]
+	Negativer 10-er Logarithmus der Konzentration der Hydroniumionen.
+	
+	{\large
+		\begin{equation}
+			\begin{split}
+				pH		&=-log_{10}\ c(H_3O^\oplus) \\
+						  &= 14-pOH
+			\end{split}
+		\end{equation}
+	}
+\end{definition}
+
+\begin{definition}[pOH-Wert]
+	Negativer 10-er Logarithmus der Konzentration der Hydroxidionen.
+	
+	{\large
+		\begin{equation}
+			\begin{split}
+				pOH&=-log_{10}\ c(OH^\ominus) \\
+				&=14-pH
+			\end{split}
+		\end{equation}
+	}
+\end{definition}
+
+Skala reicht von 0 bis 14. 0 ist sauer, 7 ist neutral, 14 ist basisch.
+
+\begin{definition}[Säurekonstante]
+	Bei einer vorhandenen Protolyse, bei der eine Säure mit Wasser reagiert, wird die Gleichgewichtskonstante ($K_c$) mit der Konzentration des Wassers ($c(H_2O)$) multipliziert, da sich diese ja konstant verhält.
+	
+	{\large
+		\begin{equation}
+		\begin{split}
+		K_S & =K_C \cdot c(H_2O) = \frac{c(H_3O^\oplus) \cdot c(X^\ominus)}{c(HX)} \\
+		pK_S & = -log_{10}\ K_S
+		\end{split}
+		\end{equation}
+	}
+	
+	Hoher $K_S$-Wert oder niedriger $pK_S$-Wert: Vollständige Protonenabgabe.
+	
+	Tiefer $K_S$-Wert oder hoher $pK_S$-Wert: Unvollständige Protonenabgabe.
+\end{definition}
+
+\begin{definition}[Basenkonstante]
+	Das gleiche wie Säurekonstante, einfach für basische Reaktionen.
+	
+	{\large
+		\begin{equation}
+		\begin{split}
+		K_B & =K_C \cdot c(H_2O) = \frac{c(OH^\ominus) \cdot c(HB^\oplus)}{c(B)} \\
+		pK_B & = -log_{10}\ K_B
+		\end{split}
+		\end{equation}
+	}
+	
+	Hoher $K_B$-Wert oder niedriger $pK_B$-Wert: Vollständige Protonenaufnahme.
+	
+	Tiefer $K_B$-Wert oder hoher $pK_B$-Wert: Unvollständige Protonenaufnahme.
+\end{definition}
+
+{\large
+\begin{equation}
+	pK_S + pK_B = 14.
+\end{equation}
+}
+
+\begin{definition}[Starke Säure]
+	Sie geben ihre Protonen vollständig ab. \\
+	{\large $pK_S < 0$}
+\end{definition}
+
+\begin{definition}[Starke Base]
+	Sie nehmen  Protonen vollständig auf. \\
+	{\large $pK_B < 0$}
+\end{definition}
+
+\subsubsection{pH-Berechnung mit starken Säuren/Basen}
+
+Für $HCl\ (pK_S=-6; \ c(HCl) = 10^{-2} M)$:
+
+$HCl + H_2O \rightarrow H_3O^\oplus + Cl^\ominus$
+
+$c_{GGW}(H_3O^\oplus) = c_0(HCl); \ K_S = 10^{-2}; \ pK_S = 2$
+
+{\large
+	\begin{equation}
+	\label{säure}
+		\begin{split}
+			 K_S=c_{GGW}(H_3O^\oplus) &= c_0(HX)
+		\end{split}
+	\end{equation}	
+}
+
+\ref{säure}: Starke Säure
+
+{\large
+	\begin{equation}
+	\label{base}
+	\begin{split}
+	K_B=c_{GGW}(OH^\ominus) &= c_0(B)
+	\end{split}
+	\end{equation}	
+}
+
+\ref{base}: Starke Säure
+
+\subsubsection{pH-Berechnung mit schwachen Säuren/Basen}
+
+
+\begin{alignat*}{5}
+	&HX \ \ \ +\ \ \ &&H_2O\ \ \rightarrow \ \ &&H_3O^\oplus \ \ \ +\ \ \ &&H^\ominus && \\
+	&c_0 - x && konst. && x && x &&
+\end{alignat*}
+
+\begin{alignat*}{5}
+	&B \ \ \ +\ \ \ &&H_2O\ \ \rightarrow \ \ &&OH^\ominus \ \ \ +\ \ \ &&HB && \\
+	&c_0 - x && konst. && x && x &&
+\end{alignat*}
+
+{\large
+	\begin{equation}
+		K_{\{S|B\}} = \frac{x^2}{c_0-x}
+	\end{equation}	
+}
+
+{\large
+	\begin{equation}
+	x^2 + x\cdot K_{\{S|B\}} - c_0 \cdot K_{\{S|B\}} = 0
+	\end{equation}
+}
+
+{\large
+	\begin{equation}
+	\begin{split}
+		\{pH\ |\ pOH\}&=-log_{10}\ x \\
+		&=14-\{pOH\  |\  pH\} \\
+	\end{split}
+	\end{equation}
+}
 
 \subsection{Neutralisationen}
 
