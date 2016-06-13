@@ -20,7 +20,11 @@
 % Silbentrennung, Sonderzeichen ect.
 \usepackage[german]{babel}
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+
+
+%\usepackage[utf8]{inputenc} do not use bc emoji
+% emoji
+\usepackage{coloremoji}
 
 
 % Mathematische Zeichen
@@ -55,10 +59,9 @@
 \usepackage{color}
 \usepackage{bbold}
 
-% emoticons
-\usepackage{newunicodechar}
-\newunicodechar{🖕}{\fuck}
-\newunicodechar{🖖}{\swag}
+
+%chemie
+\usepackage{chemfig}
 
 
 % ------------------------------------------------------------------------------------------------ %
@@ -286,7 +289,6 @@
 \addcontentsline{toc}{part}{Organische Chemie}
 
 \input{Kohlenwasserstoffe.tex}
-\input{FunktionelleGruppen.tex}
 \input{Erdoel.tex}
 \input{Kunststoffe.tex}
 \input{AminosaeurenUndProteine.tex}
