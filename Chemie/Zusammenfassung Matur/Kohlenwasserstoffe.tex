@@ -129,37 +129,65 @@ Bei Bei Cycloverbindungen:  Cyclo-\{Name\} einfügen.
 	\textit{CCCAKATE}
 	
 	\setatomsep{2.2em}
-	\begin{tabular}{ l  l }
-		\textbf{Name} & \textbf{Formel} \vspace{1em} \\
+	\begin{tabularx}{.5\textwidth}{X l l}
+		\textbf{Name + Benennung} & \textbf{Formel} \vspace{2em}\\
 		
-		Carbonsäure (\textit{\{Stamm\}-säure}) & 
-		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]OH}  \vspace{1.8em} \\
+		\vspace{-2em} 
+		Carbonsäure
 		
+		 \textit{\{Stamm\}säure}& 
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]OH} \vspace{2em} \\
 		
-		Carbonsäureester (\textit{\{Stamm\}-säure ester ester ester tester})& 
-		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]\lewis{57,O}-[:30]R'} \vspace{1.8em} \\
+		\vspace{-2em} 
+		Carbonsäureester
 		
-		Carbonsäureamide & 
-		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]NH_2} \vspace{1.8em} \\
+		\textit{\{Stamm\}säure-\{R'\}ester} & 
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]\lewis{57,O}-[:30]R'} \vspace{2em} \\
+		
+		\vspace{-2em} 
+		Carbonsäureamide
+		
+		\textit{\{Stamm\}säure-N-\{R'\}yl-N-\{R''\}ylamid}
+		
+		\textit{\{Stamm\}säure-N-N-di\{R'\}ylamid} & 
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]NH_2} \vspace{2em} \\
 	
-		Aldehyde & 
-		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]H} \vspace{1.5em} \\
+		\vspace{-2em} 
+		Aldehyde
 		
-		Ketone &
-		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]R'} \vspace{1.5em} \\
+		\textit{\{Stamm\}al}& 
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]H} \vspace{2em} \\
 		
-		Alkohole &
-		\chemfig[][scale=.8]{R-OH} \vspace{1.5em} \\
+		\vspace{-2em} 
+		Ketone
 		
-		Thiole &
-		\chemfig[][scale=.8]{R-SH} \vspace{1.5em} \\
+		\textit{\{Stamm\}on} &
+		\chemfig[][scale=.8]{C(=[:90]\lewis{13,O})(-[:-150]R)-[:-30]R'} \vspace{2em} \\
 		
-		Amine &
-		\chemfig[][scale=.8]{R-NH_2} \vspace{1.5em} \\
+		\vspace{-2em} 
+		Alkohole
 		
-		Ether &
-		\chemfig[][scale=.8]{R-[:30]\lewis{13,O}-[:-30]R} \vspace{1.5em} \\
-	\end{tabular}
+		\textit{\{Stamm\}ol} &
+		\chemfig[][scale=.8]{R-OH} \vspace{2em} \\
+		
+		\vspace{-2em} 
+		Thiole
+		
+		\textit{\{Stamm\}thiol} &
+		\chemfig[][scale=.8]{R-SH} \vspace{2em} \\
+		
+		\vspace{-2em} 
+		Amine
+		
+		\textit{\{Stamm\}ylamin} &
+		\chemfig[][scale=.8]{R-NH_2} \vspace{2em} \\
+		
+		\vspace{-2em} 
+		Ether
+		
+		\textit{\{R'\}yl-\{R''\}ylether} &
+		\chemfig[][scale=.8]{R-[:30]\lewis{13,O}-[:-30]R} \vspace{2em} \\
+	\end{tabularx}
 \end{definition}
 
 TODO aromate, cyclo
