@@ -41,13 +41,48 @@
 	\chemfig[][scale=0.8]{HO-[:30](=[:90]O)-[:-30](-[:-90]NH2)-[:30]-[:-30]*6(-=-=-=)}
 \end{definition}
 
+\subsubsection{Aromate}
+
+\begin{definition}[Aromat]
+	(Zyklische) Kohlenwasserstoffe, die ein delokalisiertes Elektronensystem besitzen.
+\end{definition}
+
+\begin{definition}[Hückel-Regel]
+	Aromatische Moleküle mit 4n + 2 Elektronen enthalten ein delokalisiertes Elektronensystem.
+\end{definition}
+
+\begin{definition}[Benzol]
+	$C_6H_6$, Ring von 6 $C$-Atomen mit einem delokalisiertem Elektronensystem. \\
+	
+	\chemfig{**6(------)}
+\end{definition}
+
+\begin{definition}[Delokalisiertes Elektronensystem]
+	Elektronen verteilen sich gleichmässig über alle Kohlenstoffatome hinweg.
+\end{definition}
+
+\begin{definition}[Kekulé-Formel]
+	In Wirklichkeit nicht so. Delokalisiertes Elektronensystem ist aktuell; $\Delta H^0_R$ wäre viel zu krass (viel zu klein, ist Wirklichkeit etwas grösser, d. H. weniger Energie freigesetzt).
+	\leavevmode \\
+	
+	\chemfig{*6(-=-=-=)}
+\end{definition}
+
 \subsection{Isomere}
 
 \begin{definition}[Chiralität]
-	TODO
+	Ein $C$-Atom hat vier verschiedene Bindungspartner. Chirale Atome in einem Molekül sind Voraussetzung für Enantiomere (1 chirales Atom) und Diastereomere (mindestens 2 chirale Atome).
 \end{definition}
 
-TODO isomerie
+\begin{itemize}
+	\item \textbf{Konstitutionsisomere}: Moleküle haben gleiche Summenformel, aber andere Verknüpfung von Atomen, andere Namen.
+	\item \textbf{Stereoisomere}: Moleküle haben gleiche Summenformel, gleiche Verknüpfung und gleichen Namen, unterschiedliche räumliche Anordnung.
+		\subitem \textbf{Konfigurationsisomere}: 
+		\subitem $\rightarrow$ \textbf{Enantiomere}: Verhalten sich wie Spiegelbilder, weisen aber keine Symmetrieebene auf. 1 chirales Atom.
+		\subitem $\rightarrow$ \textbf{Diastereomere}: Mindestens 2 chirale Atome.
+		\subitem $\rightarrow$ \textbf{cis-trans-Isomere}: an einer $C=C$-Doppelbindung sind je zwei verschiedene Substituenten entgegengesetzt (trans) oder auf einer Seite (cis) gebunden.
+		\subitem \textbf{Konformationsisomere}: Können durch Rotation ineinander überführt werden.
+\end{itemize}
 
 \subsection{Nomenklatur}
 
@@ -126,7 +161,7 @@ Bei Bei Cycloverbindungen:  Cyclo-\{Name\} einfügen.
 \end{definition}
 
 \begin{definition}[Reihenfolge der Verbindungen]
-	\textit{CCCAKATE}
+	\textit{CCCAKATE} \\
 	
 	\setatomsep{2.2em}
 	\begin{tabularx}{.5\textwidth}{X l l}
@@ -190,4 +225,33 @@ Bei Bei Cycloverbindungen:  Cyclo-\{Name\} einfügen.
 	\end{tabularx}
 \end{definition}
 
-TODO aromate, cyclo
+\subsubsection{Cycloalkane}
+
+Stamm: \textit{Cyclo\{Stamm\}\{en/in\} }
+
+Substituent: \textit{Cyclo\{Gruppe\}yl-\{Stamm\}\{en/in\} } \\
+
+\setatomsep{2.2em}
+\chemfig{*6(-=-=-=)} (Benzol) \ \
+\ \chemfig{*6(------)} (Cyclohexan)
+
+\subsubsection{Aromate}
+
+Als Stamm: \{Substituenten\}benzol
+
+Als Substituent: Phenyl-\{Stamm\} \\
+
+\setatomsep{2.2em}
+\chemfig{**6(----(-[:90]C(=[:150]\lewis{24,O})-[:30]OH)--)} %benzoesäure 
+(Phenylmethansäure)
+\chemfig{**6(----(-[:90]OH)--)} %phenol
+(\textbf{Phenol}) 
+\chemfig{**6(----(-[:90]NH_2)--)} %phenol
+(Phenylamin oder Anilin) 
+
+
+
+
+
+
+
