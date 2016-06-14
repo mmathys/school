@@ -28,7 +28,7 @@ Grund, dass Polymere schmelzen und nicht ruckartig verflüssigen: Van der Waals-
 	\begin{tabular}{l l l}
 		\textbf{Synthese} & \textbf{Produkte} & \textbf{Nebenprodukte} \\
 		Polymerisation & Polymer & Nein \\
-		Polykondensation & Polyamide, Polyester & Ja, $H_2O$\\
+		Polykondensation & Polyamide, Polyester & Ja, $H_2O$ od. $HX$\\
 		Polyaddition & Polyaddukt & Nein
 	\end{tabular}
 \end{center}
@@ -43,11 +43,14 @@ Grund, dass Polymere schmelzen und nicht ruckartig verflüssigen: Van der Waals-
 	%
 	
 	\setatomsep{2.2em}
+	\newpage
 	\textbf{Voraussetzungen}
 	
-	\chemfig{C(-[:150]H)(-[:210]H)=C(-[:30]H)(-[:-30]H)} Monomer (Ethen)\\
+	\chemfig{C(-[:150]H)(-[:210]H)=C(-[:30]H)(-[:-30]H)} Monomer (z. B. Ethen)\\
 	
 	\chemfig{\lewis{0.,R}}\hspace{.5em} Startradikal (Aus Azobiisobutyronitril) \\%Startradikale Azobiisobutyronitril
+	
+	Heft anschauen\\
 	
 	\textbf{Wichtige Monomere}\\
 	
@@ -63,7 +66,7 @@ Grund, dass Polymere schmelzen und nicht ruckartig verflüssigen: Van der Waals-
 	
 	Polytetrafluorethen bei Pfannen\\
 	
-	\chemfig{=[:-30]F} \\
+	\chemfig{=-[:-30]F} \\
 	
 	Polypropen\\
 	
@@ -83,27 +86,81 @@ Grund, dass Polymere schmelzen und nicht ruckartig verflüssigen: Van der Waals-
 
 \subsection{Polykondensation}
 
-% ist synthese
+Verknüpfung von \textit{Monomeren mit mindestens zwei funktionellen Gruppen}, die abgespalten werden, zu einem Makromolekül. Eine Dicarbonsäure oder bei der Carbonsäureamidbildung ein Dicarbonsäurehalogenid spielt immer mit.
 
 \subsubsection{Carbonsäureamidbildung}
 
-%carbonsäureamidbildung = entstehung polyamide
+Die Entstehung von \textit{Polyamiden}. Voraussetzung ist immer \textit{Diamin} und entweder Dicarbonsäure oder Dicarbonsäurehalogenide. \\
+
+\textbf{Voraussetzungen}
+
+\chemfig{H-\lewis{6,N_1}(-[:90]H)-R'-\lewis{6,N_2}(-[:90]H)-H} Diamin\\
+
+\chemfig{H-\lewis{26,O}-C_1(=[:90]\lewis{13,O})-R-C_2(=[:90]\lewis{13,O})-\lewis{26,O}-H} Dicarbonsäure\\
+
+oder\\
+
+\chemfig{\lewis{35,Cl}-C_1(=[:90]\lewis{13,O})-R-C_2(=[:90]\lewis{13,O})-\lewis{17,Cl}}\hspace{.3em} Dicarbonsäurehalogenid\\
+
+%Diamin und Carbonsäure Teilen sich je bei R bzw. R'; N bindet sich mit C, Halogen oder OH spaltet sich ab; $\rightarrow H_2O\ oder\ HX + Carbonsäureamid$ (X: Halogen).\\
+
+%\chemfig{R_1-[:30]C(=[:90]O)-[:-30]N(-[:-90]R_3)-[:30]R_2} Carbonsäureamid\\
+
+$N_2$ bindet sich mit $C_1$ und es bildet sich ein Polyamid, es spaltet sich ein $HX$ ab.\\
+
+\chemfig{H-[:-90]\lewis{4,N_1}(-[:-90]H)-R'-\lewis{6,N_2}(-[:90]H)-C_1(=[:90]\lewis{13,O})-R-C_2(=[:90]\lewis{13,O})-\lewis{026,X} \ + HX}\\
+
+Polyamid\\
+
+Amid-Bindung bei $N_2$ zu $C_1$; Kette wächst bei $N_1$ und $C_2$.
 
 \subsubsection{Esterbildung}
 
-%Besterbildung = entstehung polyester
+Entstehung Polyester, wie zum Beispiel PET. Eine (Di) Carbonsäure wird mit einem Molekül das (Zwei) Ein Hydroxygruppe verknüpft, es entsteht dabei immer $H_2O$.
+
+\textbf{Voraussetzungen}\\
+
+
+\chemfig{H-\lewis{26,O_1}-R'-\lewis{26,O_2}-H} Hydroxygruppe\\
+
+
+\chemfig{H-\lewis{26,O}-C_1(=[:90]\lewis{13,O})-R-C_2(=[:90]\lewis{13,O})-\lewis{26,O}-H} Dicarbonsäure\\
+
+$O_2$ und $C_1$ werden verbunden, es entsteht ein Polyester.\\
+
+\chemfig{H-\lewis{26,O_1}-C_1(=[:90]\lewis{13,O})-R-C_2(=[:90]\lewis{13,O})-\lewis{26,O_2}-R'-\lewis{26,O_3}-H \ \ + H_2O}\\
+
+Es wiederholt sich von $C_1$ zu $O_3$ n-mal
 
 \subsection{Polyaddition}
 
-% ist synthese
+Mechanismus kommt nicht an der Prüfung.
 
 \subsection{Spezielle Materialien}
 
 
 \subsubsection{PLA (Polylactid)}
-%% PLA (seiet 8)
+
+Synthetische Polymere, die zu Polyester zählen (d. h. aus Hydroxygruppe und (Di-) Carbonsäure hergestellt), aus Milchsäuremolekülen.
 
 \subsubsection{PVA (Polyvinylalkohol)}
-%% PVA (löslich seite 13)
+
+\begin{definition}[Bedeutung]
+	Wasserlöslicher Kunststoff, Krankenhaus.
+\end{definition}
+
+\begin{definition}[Struktur]\leavevmode \\
+	
+	\chemfig{-[:30]-[:-30](-[:-90]OH)} $\rightarrow$ \chemfig{-[:30]-[:-30](-[:-90]OH)-[:30]-[:-30](-[:-90]OH)-[:30]-[:-30](-[:-90]OH)-[:30]-[:-30](-[:-90]OH)-[:30]}
+\end{definition}
 
 \subsubsection{Superabsorber}
+
+\begin{definition}[Retrosynthese von Natriumpolyacrylat]\leavevmode \\
+	
+	\chemfig{-[:30]-[:-30](-[:-90](=[:-30]O)-[:-150]O^\ominus)-[:30]-[:-30] \ +\ \ Na^\oplus} \ Natriumpolyacrylat\\
+	
+	\chemfig{=[:-30]-[:-90](-[:-150]O^\ominus)=[:-30]O \ + \ \ Na^\oplus} \ Natriumacrylat\\
+	
+	Ein dreidimensionales Netzwerk entsteht, das besser Flüssigkeit aufnehmen kann.
+\end{definition}
