@@ -1,3 +1,216 @@
 \section{Aminosäuren und Proteine}
+ 
+\subsection{Aminosäuren}
 
-TODO. Nur z.T in ChiCD.
+\subsubsection{Struktur}
+
+\begin{itemize}
+	\item Eine Carboxylgruppe $COOH$ (evtl. 2 bei geladenen Aminosäuren)
+	\item Eine Aminogruppe $NH_2$ (evtl. 2 bei geladenen Aminosäuren) beim $C_1$-Atom gebunden.
+	\item Ein Aminosäuren-Rest beim $C_1$-Atom
+\end{itemize}
+
+\begin{definition}[$\alpha,\ \beta,\ \gamma$-Aminosäure]
+	Die Aminogruppe $NH_2$ und der Aminosäurenrest $COOH$ sind beim 1. ($\alpha$), 2. ($\beta$) oder 3. ($\gamma$) C-Atom ab der Carboxylgruppe gebunden.
+\end{definition}
+
+\leavevmode \\
+
+\setatomsep{2em}
+\chemfig{R-[:-45](-[:-135]H_2N)-(=[:45]O)-[:-45]OH} $\alpha$-Aminosäure\\
+
+\chemfig{R-[:-30](-[:-90]NH_2)-[:30]-[:-30](=[:30]O)-[:-90]OH} $\beta$-Aminosäure\\
+
+\chemfig{R-[:-90](-[:-150]NH_2)-[:-30]-[:30]-[:-30](=[:30]O)-[:-90]OH} $\gamma$-Aminosäure\\
+
+$R:\ C_1.$
+
+\begin{definition}[Optische Aktivität]
+	$C_\alpha$ ist oft ein chirales Atom, darum tretet die optische Aktivität auf.
+\end{definition}
+
+\begin{definition}[L- und D-Konfiguration]
+	L: Leavus, D: Dexter; Konfiguration der Anordnung beim chiralen Atom. Z. B. L-$\alpha$-Prolin.
+\end{definition}
+
+
+\subsubsection{Polarität und Ladung bei Seitenketten}
+
+Aminosäuren können anhand der Seitenketten in drei Klassen eingeteilt werden:
+
+\begin{itemize}
+	\item Unpolare Seitenketten, lipophil
+	\item Polare, ungeladene Seitenketten, hydrophil
+	\item Polare, geladene Seitenketten
+\end{itemize}
+
+\begin{definition}[Unpolare Seitenketten]
+	Seitenketten sind mehrheitlich C-Ketten und mit neutralen Atomen wie $S$-Atomen oder einem $N$-Atom. Können Van der Waals-Verbindungen eingehen.
+	
+	\begin{tabularx}{.5\textwidth}{l X l}
+		\textbf{Kürzel} & \textbf{Aminosäure} & \textbf{Rest} \\
+		
+		\vspace{1em}
+		
+		Gly & Glycin & - \\
+		
+		\vspace{1em}
+		
+		Ala & Alanin& \chemfig{C_1} \\
+		
+		\vspace{1em}
+		
+		Val & Valin & \chemfig{C_1(-[6]C)-C} \\
+		
+		\vspace{1em}
+		
+		Leu & Leucin & \chemfig{C_1-[6]C(-[6]C)-C} \\
+		
+		\vspace{1em}
+		
+		Ile & Isoleucin & \chemfig{C_1(-[6]C-[6]C)-C} \\
+		
+		\vspace{1em}
+		
+		Phe & Phenylalanin& \chemfig{C_1-[6]*6(-=-=-=)} \\
+		
+		\vspace{1em}
+		
+		Met & Methionin & \chemfig{C_1-[6]C-S-C} \\
+		
+		\vspace{1em}
+		
+		Pro & Prolin; Formel ist die ganze Aminosäure! & \chemfig{COOH-[6]*5(-HN----)}\\
+		
+		\vspace{1em}
+		
+		Trp & Tryptophan & \chemfig{C_1-[6]*5(-*6(-=-=-=)--NH-=)}
+		
+		
+	\end{tabularx}
+\end{definition}
+
+\begin{definition}[Polare, ungeladene Seitenketten]
+	Beinhalten u. a. $CO$, $NH_2$, $SH$ oder $OH$. Können Wasserstoffverbindungen eingehen.
+	
+	\begin{tabularx}{.5\textwidth}{l X l}
+		\textbf{Kürzel} & \textbf{Aminosäure} & \textbf{Rest} \\
+		
+		\vspace{1em}
+		
+		Cys & Cystein & \chemfig{C_1-SH} \\
+		
+		\vspace{1em}
+		
+		Ser & Serin & \chemfig{C_1-OH} \\
+		
+		\vspace{1em}
+		
+		Thr & Threonin & \chemfig{C_1(-[6]C)-OH} \\
+		
+		\vspace{1em}
+		
+		Asn & Aspargin & \chemfig{C_1-[6]CO-NH_2} \\
+		
+		\vspace{1em}
+		
+		Gln & Glutamin & \chemfig{C_1-[6]C-[6]CO-NH_2} \\
+		
+		\vspace{1em}
+		
+		Tyr & Tyrosin & \chemfig{C_1-[6]*6(-=-(-[6]OH)=-=)}
+		
+		
+	\end{tabularx}
+\end{definition}
+
+\begin{definition}[Polare, geladene Seitenketten]
+	Beinhalten u.a. $NH$, Doppelbindungen, $COOH$ oder Cyclopentan mit $N$. Ausnahme $Lys$, weil es so extrem lang ist.
+	
+	\begin{tabularx}{.5\textwidth}{l X l}
+		\textbf{Kürzel} & \textbf{Aminosäure} & \textbf{Rest} \\
+		
+		\vspace{1em}
+		
+		Asp & Aparginsäure & \chemfig{C_1-[6]COOH} \\
+		
+		\vspace{1em}
+		
+		Glu & Glutaminsäure & \chemfig{C_1-[6]C-COOH} \\
+		
+		\vspace{1em}
+		
+		Lys & Lysin & \chemfig{C_1-[6]C-[6]C-[6]C-H_2} \\
+		
+		\vspace{1em}
+		
+		His & Histidin & \chemfig{C_1-[6]*5(=-NH-=N-)} \\
+		
+		\vspace{1em}
+		
+		Arg & Arginin & \chemfig{C_1-[6]C-[6]C-[7]NH-[1]C(=[7]NH)-[2]NH_2}
+		
+		
+	\end{tabularx}
+	
+\end{definition}
+
+\begin{center}
+	\begin{tabular}{l l}
+		\textbf{Typ} & \textbf{Seitenketten} \\
+		Polar, Geladen & $NH$, $=$, $COOH$, Cyclopentan+N \\
+		Polar, Ungeladen & $CO$, $NH_2$, $SH$, $OH$ \\
+		Unpolar, Ungeladen & $C$, $S$, $N$
+	\end{tabular}
+\end{center}
+
+\subsection{Peptide}
+
+Peptide sind Verknüpfungen von Aminosäuren. Sie Verknüpfen die Carboxygruppe $COOH$ und die Aminogruppe $NH_2$ von zwei Aminosäuren und bilden somit einen Strang.\\
+
+\begin{center}
+	\begin{tabular}{l l}
+		\textbf{Name} & \textbf{Anzahl Aminosäurereste} \\
+		Oligopeptid & $2 \leq n \leq 9$ \\
+		Polypeptid & $10\leq n \leq 100$ \\
+		Eiweisse, Proteine & $n>100$\\
+	\end{tabular}
+\end{center}
+
+
+
+\chemname{\chemfig{H-[:-45]\lewis{4,N}(-[:-135]H)-C_\alpha(-[:90]H)(-[:-90]R_1)-C(=[:45]\lewis{02,O})-[:-45]OH}}{Aminosäure 1}
+\chemsign{+}
+\chemname{\chemfig{H-[:-45]\lewis{4,N}(-[:-135]H)-C_\alpha(-[:90]H)(-[:-90]R_2)-C(=[:45]\lewis{02,O})-[:-45]OH}}{Aminosäure 2}
+
+\chemrel{->}
+\chemname{\chemfig{H-[:-45]\lewis{4,N}(-[:-135]H)-C_\alpha(-[:90]H)(-[:-90]R_1)-C(=[:90]\lewis{13,O})-\lewis{2,N}(-[:-90]H)-C_\alpha(-[:90]H)(-[:-90]R_2)-C(=[:45]\lewis{02,O})-[:-45]OH }}{Dipeptid}
+{\vspace{4em}\chemsign{+}}
+\chemname{\vspace{-4em}\chemfig{H-[1]\lewis{13,O}-[7]H}}{Wasser}\\
+
+$NHCO$ wird als Peptidbindung bezeichnet.
+
+\subsection{Proteine}
+
+\begin{definition}[Primärstruktur]
+	\textit{Polypeptid-Strang}, mehr als 100 Peptide werden in einem Strang zusammengebunden.
+\end{definition}
+
+\begin{definition}[Sekundärstruktur]
+	\begin{itemize}
+		\item $\alpha$-Helix: Spirale
+		\item $\beta$-Faltblatt: Einzelne Ebenen knicken ein; parallele und antiparallele Faltblätter (O-H-Verbindungen), antiparallele halten besser.
+	\end{itemize}
+\end{definition}
+
+\begin{definition}[Tertiärstruktur]
+	Loop der Peptidkette. Bsp: Hämoglobin.
+\end{definition}
+
+
+
+
+
+
+
+
