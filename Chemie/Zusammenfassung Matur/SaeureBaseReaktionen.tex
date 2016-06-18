@@ -182,12 +182,12 @@ Skala reicht von 0 bis 14. 0 ist sauer, 7 ist neutral, 14 ist basisch.
 \end{equation}
 }
 
-\begin{definition}[Starke Säure]
+\begin{definition}[Sehr starke Säure]
 	Sie geben ihre Protonen vollständig ab. \\
 	{\large $pK_S < 0$}
 \end{definition}
 
-\begin{definition}[Starke Base]
+\begin{definition}[Sehr starke Base]
 	Sie nehmen  Protonen vollständig auf. \\
 	{\large $pK_B < 0$}
 \end{definition}
@@ -196,11 +196,12 @@ Skala reicht von 0 bis 14. 0 ist sauer, 7 ist neutral, 14 ist basisch.
 
 Annahme: Bei starken Säuren oder starken Basen reagiert die Säure oder die Base völlig. \\
 
-Für $HCl\ (pK_S=-6; \ c(HCl) = 10^{-2} M)$:
+Für $HCl\ (pK_S=-6; \ c(HCl) = 10^{-2} M)$:\\
 
-$HCl + H_2O \rightarrow H_3O^\oplus + Cl^\ominus$
+$HCl + H_2O \rightarrow H_3O^\oplus + Cl^\ominus$\\
 
-$c_{GGW}(H_3O^\oplus) = c_0(HCl); \ K_S = 10^{-2}; \ pK_S = 2$
+$c_{GGW}(H_3O^\oplus) = c_0(HCl); \ K_S = 10^{-2}; \ pK_S = 2$\\
+
 {\large
 	\begin{equation}
 	\label{säure}
@@ -209,7 +210,8 @@ $c_{GGW}(H_3O^\oplus) = c_0(HCl); \ K_S = 10^{-2}; \ pK_S = 2$
 		\end{split}
 	\end{equation}	
 }
-\ref{säure}: Starke Säure
+\ref{säure}: Starke Säure\\
+
 {\large
 	\begin{equation}
 	\label{base}
@@ -219,7 +221,7 @@ $c_{GGW}(H_3O^\oplus) = c_0(HCl); \ K_S = 10^{-2}; \ pK_S = 2$
 	\end{equation}	
 }
 \ref{base}: Starke Säure
-\subsubsection{pH-Berechnung mit schwachen Säuren/Basen}
+\subsubsection{pH-Berechnung mit sehr schwachen Säuren/Basen}
 
 \begin{alignat*}{5}
 	&HX \ \ \ +\ \ \ &&H_2O\ \ \rightarrow \ \ &&H_3O^\oplus \ \ \ +\ \ \ &&H^\ominus && \\
@@ -294,15 +296,15 @@ Ein Paar aus einer schwachen Säure $HPu$ und einer schwachen Base $Pu^\ominus$.
 
 \subsubsection{Existenzgebiete von Teilchen}
 
-$pH = pK_s \Rightarrow \frac{c(Pu^\ominus)}{c(HPu)} = 1$: Je 50\% Säure und Säurerest in der Pufferlösung.
+$pH = pK_s \Rightarrow \frac{c(Pu^\ominus)}{c(HPu)} = 1$: Je 50\% Säure und Säurerest in der Pufferlösung.\\
 
-$pH > pK_s \Rightarrow \frac{c(Pu^\ominus)}{c(HPu)} > 1$: Mehr Säure, weniger Säurerest in der Pufferlösung.
+$pH > pK_s \Rightarrow \frac{c(Pu^\ominus)}{c(HPu)} > 1$: Mehr Säure, weniger Säurerest in der Pufferlösung.\\
 
 $pH < pK_s \Rightarrow \frac{c(Pu^\ominus)}{c(HPu)} < 1$: Weniger Säure, mehr Säurerest in der Pufferlösung.
 
 \subsection{Neutralisationen}
 
-Ziel der Neutralisation: Durch Zugabe von Säure oder Base den Stoff zu einem neutralen pH-Wert zu führen.
+Ziel der Neutralisation: Durch Zugabe von Säure oder Base den Stoff zu einem neutralen pH-Wert (pH=7) zu führen.
 
 Zweck: Bestimmen der Konzentrationen von Säuren und Basen.
 
@@ -316,4 +318,29 @@ Neutralisationsgleichung.... TODO andere source.
 
 \subsection{Titrationen}
 
-TODO, nicht in ChiCD vorhanden.
+\subsubsection{Säure-Base Titration}
+
+Eine saure Lösung wir mit einer basischen Lösung neutralisiert (oder umgekehrt). Ziel: Konzentration eines Stoffes herausfinden durch Hinzugabe von Masslösung und Benutzen eines pH-Indikators.
+
+\begin{definition}[Äquivalenzpunkt]
+	Bei einem ÄP: pH-Wert ist bei 7, in der Mitte des pH-Sprungs, die Lösung ist neutral. In diesem Fall ist
+	
+	{\large
+		\begin{equation}
+			n(S\ddot{a}ure) = n(Massl\ddot{o}sung)
+		\end{equation}	
+	}
+	
+	y-Achse: pH; x-Achse: n(Masslösung) oder ml M oder ml mol/l.
+\end{definition}
+
+Da $n=c \cdot V$. $c$ ist die Konzentration des Masslösung, $V$ die verbrauchte Menge der Masslösung. $n_S$ und $n_M$ gleichsetzen, \textbf{Achtung}: Für $V_s$ den Anfangswert des Volumens nehmen, nicht der Wert mit der Masslösung drinnen!
+
+{\large
+	\begin{equation}
+	\label{titration}
+	V_{S\ddot{a}ure}\ \cdot \ c(S\ddot{a}ure) \ \cdot \ z_{S\ddot{a}ure} = V_{Base} \ \cdot \ c(Base) \ \cdot \ z_{Base}
+	\end{equation}	
+}
+
+\ref{titration}: Grundgleichung der Titration.
