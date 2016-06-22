@@ -65,6 +65,11 @@
 
 \usepackage{tabularx} % in the preamble
 
+\usepackage{bashful}
+
+\usepackage{datetime}
+
+
 
 % ------------------------------------------------------------------------------------------------ %
 % FARBEN
@@ -249,7 +254,7 @@
 % INHALT
 % ------------------------------------------------------------------------------------------------ %
 
-
+\immediate\write18{./gitbuild.sh > gitbuild.tex}
 \begin{document}
 
 \setcounter{tocdepth}{2}
