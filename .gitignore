@@ -32,8 +32,9 @@
 *.ps
 *.run.xml
 *.snm
-*.synctex.gz
 *.toc
+*.synctex.gz
+*.synctex.gz(busy)
 *.vrb
 *.xdy
 *.tdo
